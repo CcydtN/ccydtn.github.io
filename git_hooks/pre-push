@@ -1,0 +1,17 @@
+#!/bin/sh
+
+status=$(git status -s)
+# Check if the output is empty
+if [ -n "$status" ]; then
+  echo "Git status is not clean. Stash before push"
+	exit 1
+fi
+
+check_cmd="just -q check"
+
+if ! $check_cmd; then
+  echo "Check fail, run 'just check'"
+	exit 1
+fi
+
+exit 0

@@ -1,5 +1,27 @@
+help_msg:='''
+Make sure to run the following command once after you clone the repo:
+\`just setup\`
+
+'''
+
 default:
-    just --list
+    @echo "{{help_msg}}"
+    @just --list
+
+setup:
+    git submodule init
+    git submodule update
+    ls git_hooks/ | xargs -I{} cp git_hooks/{} .git/hooks/
 
 new name:
-    cp pages/front_matter.md content/posts/{{name}}.md
+    mkdir -p content/posts/{{name}}/
+    cp pages/front_matter.md content/posts/{{name}}/index.md
+
+check:
+    @zola check --drafts
+
+draft:
+    zola serve --drafts
+
+update_theme:
+    git submodule update --recursive --remote
