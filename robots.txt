@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ccydtn.giithub.io/sitemap.xml
