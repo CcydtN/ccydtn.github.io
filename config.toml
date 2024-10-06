@@ -9,7 +9,7 @@ minify_html = true
 
 theme = "apollo"
 
-taxonomies = [{ name = "tags", feed = true, paginate_by = 10 }]
+taxonomies = [{ name = "tags" }]
 
 [markdown]
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -30,7 +30,9 @@ menu = [
   { name = "/about", url = "/about", weight = 3 },
   { name = "/tags", url = "/tags", weight = 4 },
 ]
-socials = []
+socials = [
+  { name = "github", url = "https://github.com/CcydtN/", icon = "github" },
+]
 
 custom_css = []
 

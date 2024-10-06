@@ -23,5 +23,8 @@ check:
 draft:
     zola serve --drafts
 
+serve:
+    zola serve
+
 update_theme:
     git submodule update --recursive --remote
