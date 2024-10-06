@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://ccydtn.github.io"
-title = "Ccydtn"
+title = "CcydtN"
 description = "Not showing up on the page"
 build_search_index = false
 generate_feeds = true
