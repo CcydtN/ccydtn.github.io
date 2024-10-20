@@ -2,7 +2,7 @@
 title = "DIY touchpad"
 description = ""
 date = 2024-10-05
-updated = 2024-10-05
+updated = 2024-10-20
 draft = false
 
 [taxonomies]
@@ -10,12 +10,13 @@ tags = ["Touchpad", "DIY", "Trackpad"]
 
 [extra]
 toc = false
-+++
++++ 
 > Disclaimer
 > 
 > It is a W.I.P. project, and I don't have any schedule.
 >
-> Everytime I make some progress, I will come back and update this post.
+> Ploopy made a open source [trackpad](https://ploopy.co/trackpad/). Check it out!
+>
 
 # Why I started the project (back in 2022)
 I like using the touchpad/trackpad on my laptop, but its position is fixed. I can't move it around or place it in a more comfortable position.
