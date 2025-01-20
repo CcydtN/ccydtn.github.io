@@ -31,7 +31,9 @@ menu = [
   { name = "/tags", url = "/tags", weight = 4 },
 ]
 socials = [
-  { name = "github", url = "https://github.com/CcydtN/", icon = "github" },
+  { name = "Github", url = "https://github.com/CcydtN/", icon = "github" },
+  { name = "Twitter(X)", url = "https://x.com/CcydtN", icon = "x-twitter" },
+  { name = "Bluesky", url = "https://bsky.app/profile/ccydtn.bsky.social", icon = "bluesky" },
 ]
 
 custom_css = []

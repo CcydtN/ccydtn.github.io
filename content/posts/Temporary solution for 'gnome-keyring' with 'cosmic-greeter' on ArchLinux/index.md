@@ -4,7 +4,10 @@ description = ""
 date = 2025-01-19
 updated = 2025-01-19
 draft = false
+
+[taxonomies]
 tags = ['ArchLinux', 'keyring', 'greetd', 'COSMIC']
+
 [extra]
 toc = true
 +++
@@ -29,8 +32,8 @@ It appears that the issue should already be fixed after alpha-2, so what is goin
 
 # What is the issue? and Why it happened?
 The first thing I did is comparing the content of `cosmic-greeter.toml`.
-| Expected | Actual |
-|---|---|
+| Expected                    | Actual                  |
+| --------------------------- | ----------------------- |
 | ![expected](./expected.png) | ![actual](./actual.png) |
 > Content of expected content: [cosmic-greeter.toml (tag: alpha-2)](https://github.com/pop-os/cosmic-greeter/blob/epoch-1.0.0-alpha.2/cosmic-greeter.toml)
 >

@@ -4,7 +4,10 @@ description = ""
 date = 2025-01-02
 updated = 2025-01-02
 draft = false
+
+[taxonomies]
 tags = [ 'C++', 'Python', 'Rust' ]
+
 [extra]
 toc = true
 +++

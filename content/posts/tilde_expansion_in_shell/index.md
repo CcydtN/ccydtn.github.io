@@ -4,7 +4,10 @@ description = ""
 date = 2024-10-25
 updated = 2024-10-25
 draft = false
+
+[taxonomies]
 tags = [ 'shell', 'sh', 'bash', 'zsh', 'fish' ]
+
 [extra]
 toc = true
 +++

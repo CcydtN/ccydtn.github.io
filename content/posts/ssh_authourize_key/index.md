@@ -4,7 +4,10 @@ description = ""
 date = 2024-10-25
 updated = 2024-10-25
 draft = false
+
+[taxonomies]
 tags = [ "SSH", "Encryption", "setup" ]
+
 [extra]
 toc = true
 +++

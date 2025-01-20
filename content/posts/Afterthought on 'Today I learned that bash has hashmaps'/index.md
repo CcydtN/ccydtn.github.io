@@ -4,7 +4,10 @@ description = ""
 date = 2025-01-12
 updated = 2025-01-12
 draft = false
+
+[taxonomies]
 tags = []
+
 [extra]
 toc = true
 +++
