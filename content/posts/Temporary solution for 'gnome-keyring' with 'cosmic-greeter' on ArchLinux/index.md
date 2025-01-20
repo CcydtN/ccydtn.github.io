@@ -3,7 +3,7 @@ title = "Temporary solution for 'gnome-keyring' with 'cosmic-greeter' on ArchLin
 description = ""
 date = 2025-01-19
 updated = 2025-01-19
-draft = true
+draft = false
 tags = ['ArchLinux', 'keyring', 'greetd', 'COSMIC']
 [extra]
 toc = true
