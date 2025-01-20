@@ -7,7 +7,7 @@ generate_feeds = true
 compile_sass = true
 minify_html = true
 
-theme = "apollo"
+theme = "tabi"
 
 taxonomies = [{ name = "tags" }]
 
@@ -18,7 +18,7 @@ highlight_code = true
 [extra]
 toc = true
 use_cdn = false
-favicon = "themes/apollo/icon/favicon.png"
+favicon = "themes/tabi/icon/favicon.png"
 theme = "toggle"
 comment = false
 mathjax = true
@@ -27,12 +27,13 @@ mathjax_dollar_inline_enable = true
 menu = [
   { name = "/posts", url = "/posts", weight = 1 },
   # { name = "/projects", url = "/projects", weight = 2 },
-  { name = "/about", url = "/about", weight = 3 },
+  { name = "/about me", url = "/about", weight = 3 },
   { name = "/tags", url = "/tags", weight = 4 },
 ]
 socials = [
   { name = "Github", url = "https://github.com/CcydtN/", icon = "github" },
-  { name = "Twitter(X)", url = "https://x.com/CcydtN", icon = "x-twitter" },
+  { name = "X", url = "https://x.com/CcydtN", icon = "x" },
+  # { name = "Twitter", url = "https://x.com/CcydtN", icon = "twitter" },
   { name = "Bluesky", url = "https://bsky.app/profile/ccydtn.bsky.social", icon = "bluesky" },
 ]
 
