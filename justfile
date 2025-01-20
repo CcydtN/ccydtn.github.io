@@ -14,8 +14,8 @@ setup:
     ls git_hooks/ | xargs -I{} cp git_hooks/{} .git/hooks/
 
 new name:
-    mkdir -p content/posts/"{{name}}"/
-    cp pages/front_matter.md content/posts/"{{name}}"/index.md
+    mkdir -p content/posts/'{{name}}'/
+    cp pages/front_matter.md content/posts/'{{name}}'/index.md
 
 check:
     @zola check --drafts
